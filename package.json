@@ -1,0 +1,19 @@
+{
+  "name": "rate_limiter",
+  "version": "1.0.0",
+  "description": "Simple rate limiter middleware, customizeable via a \"request selector\" function, rate limit and cooldown time. ",
+  "main": "limit.js",
+  "type": "module",
+  "scripts": {
+    "example": "node example.js"
+  },
+  "keywords": [
+    "rate limiter middleware", "nodejs rate limiter", "express rate limiter"
+  ],
+  "author": "Andrew Bloese",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
+ 
